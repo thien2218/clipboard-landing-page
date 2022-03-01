@@ -3,7 +3,6 @@
    padding: 130px 0;
    width: 100%;
    background: url(./images/bg-header-desktop.png) no-repeat;
-   margin-bottom: 26px;
 }
 
 .header-text {
@@ -28,4 +27,16 @@
 .btns {
    display: flex;
    gap: 16px;
+}
+
+.shadow-btn1 {
+   height: max-content;
+   border-radius: 25px;
+   box-shadow: 0px 18px 12px rgba(37, 187, 165, 0.1);
+}
+
+.shadow-btn2 {
+   height: max-content;
+   border-radius: 25px;
+   box-shadow: 0px 18px 12px rgba(97, 116, 255, 0.1);
 }

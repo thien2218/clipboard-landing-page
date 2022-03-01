@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
 @import url(header.css);
 @import url(footer.css);
+@import url(main.css);
 
 html,
 body {
@@ -49,7 +50,6 @@ input {
    width: 100vw;
    display: flex;
    justify-content: center;
-   font-size: 1.125rem;
    color: #4B545B;
 }
 
@@ -63,13 +63,13 @@ input {
    font-size: 2.875rem;
    font-weight: 600;
    letter-spacing: -0.015em;
-   margin-bottom: 26px;
+   margin-bottom: 24px;
 }
 
 .heading2 {
    font-size: 2.25rem;
    font-weight: 600;
-   margin-bottom: 26px;
+   margin-bottom: 24px;
    letter-spacing: -0.015em;
 }
 
@@ -77,10 +77,18 @@ input {
    font-size: 1.5rem;
    font-weight: 600;
    letter-spacing: -0.02em;
+   margin-bottom: 10px;
 }
 
 .text {
    line-height: 165.5%;
+   font-size: 1.125rem;
+   color: rgba(75, 84, 91, 0.4);
+}
+
+.sm-text {
+   line-height: 185%;
+   letter-spacing: 0.005em;
    color: rgba(75, 84, 91, 0.4);
 }
 
@@ -110,10 +118,6 @@ input {
 
 .primary-btn-2:hover {
    background: #8896FF;
-}
-
-.mg-bot-60 {
-   margin-bottom: 60px;
 }
 
 .mg-bot-80 {

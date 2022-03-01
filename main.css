@@ -1,0 +1,50 @@
+.main {
+   margin: 26px 0 154px 0;
+}
+
+.grid-temp-2 {
+   display: grid;
+   margin-bottom: 154px;
+   grid-template-columns: 1fr 1fr;
+}
+
+.computer {
+   height: 572px;
+   background: url(./images/image-computer.png) no-repeat right;
+}
+
+.features {
+   display: flex;
+   align-items: center;
+}
+
+.features-wrapper {
+   display: flex;
+   flex-direction: column;
+   gap: 60px;
+   width: 50%;
+   margin-left: 110px;
+}
+
+.devices {
+   margin-bottom: 75px;
+   margin-top: 20px;
+}
+
+.tools {
+   width: 75%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 40px;
+}
+
+.tool .sm-text {
+   margin-top: 10px;
+}
+
+.tool-icon {
+   height: 40px;
+   display: flex;
+   align-items: center;
+   margin-bottom: 43px;
+}
