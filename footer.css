@@ -10,6 +10,7 @@
 .footer-logo {
    transform: translateX(-35px) scale(calc(55 / 125));
    margin-right: 135px;
+   cursor: pointer;
    align-items: center;
 }
 

@@ -1,10 +1,9 @@
 .main {
-   margin: 26px 0 154px 0;
+   margin: 26px 0 156px 0;
 }
 
 .grid-temp-2 {
    display: grid;
-   margin-bottom: 154px;
    grid-template-columns: 1fr 1fr;
 }
 
@@ -47,4 +46,11 @@
    display: flex;
    align-items: center;
    margin-bottom: 43px;
+}
+
+.support-browser {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 100px;
 }
