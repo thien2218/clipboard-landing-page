@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+@import url(header.css);
+@import url(footer.css);
+
+html,
+body {
+   padding: 0;
+   margin: 0;
+   font-family: Rubik, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+}
+
+a {
+   color: inherit;
+   text-decoration: none;
+}
+
+* {
+   box-sizing: border-box;
+   line-height: 100%;
+   margin: 0;
+   padding: 0;
+}
+
+li {
+   list-style: none;
+}
+
+button {
+   background: none;
+   border: none;
+   color: #fff;
+   cursor: pointer;
+   line-height: 100%;
+   transition: .2s ease;
+   border-radius: 25px;
+   padding: 18px 36px;
+}
+
+input {
+   outline: none;
+   border: none;
+}
+
+/* Page's style below */
+
+.container {
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   font-size: 1.125rem;
+   color: #4B545B;
+}
+
+.wrapper {
+   width: 100%;
+   max-width: 1440px;
+   overflow: hidden;
+}
+
+.heading1 {
+   font-size: 2.875rem;
+   font-weight: 600;
+   letter-spacing: -0.015em;
+   margin-bottom: 26px;
+}
+
+.heading2 {
+   font-size: 2.25rem;
+   font-weight: 600;
+   margin-bottom: 26px;
+   letter-spacing: -0.015em;
+}
+
+.heading3 {
+   font-size: 1.5rem;
+   font-weight: 600;
+   letter-spacing: -0.02em;
+}
+
+.text {
+   line-height: 165.5%;
+   color: rgba(75, 84, 91, 0.4);
+}
+
+.justify-center {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.text-center {
+   text-align: center;
+}
+
+.primary-btn-1 {
+   background: #26BBA5;
+   box-shadow: 0px 3px 0px #219F89;
+}
+
+.primary-btn-2 {
+   background: #6174FF;
+   box-shadow: 0px 3px 0px #5063DC;
+}
+
+.primary-btn-1:hover {
+   background: #5DCCBB;
+}
+
+.primary-btn-2:hover {
+   background: #8896FF;
+}
+
+.mg-bot-60 {
+   margin-bottom: 60px;
+}
+
+.mg-bot-80 {
+   margin-bottom: 80px;
+}
